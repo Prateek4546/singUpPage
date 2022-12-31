@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lato', sans-serif;
+}
+.outer_box{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to top left , red ,blue);
+}
+.inner_box{
+    width: 300px;
+   
+    margin: 0 auto;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 20px 40px;
+    background-color: white;
+    backdrop-filter: blur(8px);
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px pink;
+    z-index: 2;
+}
+.sing_header h1{
+    font-size: 2.5rem;
+    color: #212121;
+}
+.sing_header p{
+    font-size: 0.9rem;
+    color: #555;
+}
+.singup_body{
+    margin: 20px 0px;
+}
+.singup_body p{
+    margin: 10px 0px;
+}
+.singup_body p label{
+    display: block;
+    font-weight: bold;
+}
+.singup_body p input{
+    width: 100%;
+    padding: 10px;
+    border: 2px soli #cccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    margin-top: 4px;
+}
+.singup_body p input[type="submit"]{
+         background-color: #3498bd;
+         border: none;
+         color: white;
+         cursor: pointer;
+}
+.singup_body p input[type="submit"]:hover{
+         background-color: #2773a5;
+}
+.singup_footer p{
+ color: #555;
+ text-align: center;
+}
+.singup_footer p a{
+    color: #2773a5;
+}
+.circel {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  background: linear-gradient(to top right , #ffffff33 , #ffffff);
+  position: absolute;
+}
+.c1{
+    top:100px;
+    left: 40px;
+}
+.c2{
+    right: 100px;
+    bottom: 50px;
+}
